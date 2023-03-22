@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <meta charset="UTF-8" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <header class="hero flex" id="home">
+      <div class="name">
+        <h2>Matias</h2>
+      </div>
+      <nav class="nav" id="navbar">
+        <ul class="ul flex">
+          <li><a href="#home"> Inicio </a></li>
+          <li><a href="#proyectos"> Proyectos </a></li>
+          <li><a href="#contacto"> Contacto </a></li>
+        </ul>
+      </nav>
+      <div class="btn flex">
+        <ion-icon id="responsive" name="menu-outline"></ion-icon>
+      </div>
+    </header>
+    <!---->
+    <section class="home flex">
+      <video src="video/bg.mp4" muted autoplay loop></video>
+      <div class="video-capa"></div>
+      <div class="title flex">
+        <h2>¡Hola! Soy <b>Matias</b></h2>
+        <p>Gracias por visitar mi portfolio.</p>
+        <div class="home-icons flex">
+          <a href="https://github.com/matias-romoli"
+            ><ion-icon name="logo-github"></ion-icon
+          ></a>
+          <a href="https://www.linkedin.com/in/matias-romoli/"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+        </div>
+      </div>
+      <div class="home-image flex">
+        <div class="image">
+          <img loading="lazy" src="/image/Avatar.png" alt="Avatar" />
+        </div>
+      </div>
+    </section>
+    <!---->
+    <section class="section" id="proyectos">
+      <div class="subtitle flex" data-aos="fade-up">
+        <h2>Proyectos</h2>
+      </div>
+      <div class="cards-container flex">
+        <div class="cards flex" data-aos="fade-up">
+          <div class="json flex">
+            <div class="img">
+              <img
+                src="https://media.giphy.com/media/TWn2V6FKqZQGLvd32Q/giphy.gif"
+              />
+              <div class="img-hover">
+                <a href="https://github.com/matias-romoli/JSONTask"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="description">
+              <h2>JSON Task</h2>
+              <p>
+                Herramientas y metodología: Node JS, Express, Flash message, con
+                la implementación de ciertos patrones de diseño cómo POO. DB,
+                archivo JSON.
+              </p>
+            </div>
+          </div>
+          <div class="json flex">
+            <div class="img">
+              <img
+                src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYTU3OTQyNzVjNGM4MzdjMmViNTMyNWEwNjg3NzNiNzY2MDE0MmQzZCZjdD1n/bi93N1TurdZuaDN6hr/giphy.gif"
+              />
+              <div class="img-hover">
+                <a href="https://github.com/matias-romoli/react-node"
+                  ><ion-icon name="logo-github"></ion-icon
+                ></a>
+              </div>
+            </div>
+            <div class="description">
+              <h2>Task con React y Node JS</h2>
+              <p>
+                Node JS, Express, POO, con la implementación de ciertos patrones
+                de diseño cómo Factory. Incluye Logger y MySQL.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---->
+    <section class="contact flex" id="contacto">
+      <div class="contact-method flex">
+        <div class="country flex">
+          <img src="/image/Arg.png" alt="Bandera Argentina." />
+          <p>La Plata, Argentina.</p>
+        </div>
+        <div class="email flex">
+          <a href="mailto:matiasromoli22@gmail.com"
+            ><ion-icon name="send-outline"></ion-icon
+          ></a>
+          <a href="https://www.linkedin.com/in/matias-romoli/"
+            ><ion-icon name="logo-linkedin"></ion-icon
+          ></a>
+          <a href="https://www.instagram.com/matiasromoli/"
+            ><ion-icon name="logo-instagram"></ion-icon
+          ></a>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script
+    type="module"
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+  ></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="main.js" defer></script>
+</html>

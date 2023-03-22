@@ -1,0 +1,1 @@
+const $ = (selector) =>document.getElementById(selector);const responsive = $("responsive");const nav = $("navbar");responsive.addEventListener("click",() =>{nav.classList.toggle("transform")});
